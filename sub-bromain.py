@@ -13,15 +13,23 @@ print(my_banner)
 
 ## PREPARATION ##
 
-print("\033[1;31;48mEnter the subdomain and the file name!\033[1;32;48m")
+print("\033[1;31;48mEnter the subdomain name!\033[1;32;48m")
 
 
 ## taking files ##
 try:
 	domain = input()
+
+except:
+	print("Need more arguments")
+
+print("\033[1;31;48mEnter the file name!\033[1;32;48m")
+
+try:
 	list_path = input()
 except:
 	print("Need more arguments")
+
 
 
 ## open wordlist ##
