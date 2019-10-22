@@ -4,7 +4,7 @@ This tool can help you to find subdomains accroding to the subdomain lists you h
 
 Hardware Requirements to Run this tool fluently in your system.
 
-Operating System : Linux (preffered Kali Linux)
+Operating System : Linux 
 RAM : more than 1 GB
 Storage : Bare Minimum Requirements
 
